@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-image: url("https://stepik.org/media/attachments/lesson/374893/world.png");
+    /* background-image: url("https://i.pinimg.com/564x/cc/24/7c/cc247cd2e0799b3a8edcab62e9fa9a30.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    cursor: url("1.png"), auto !important;
+
+
+}
+
+h1, h2 {
+  color: #e53935;
+}
+
+a {
+  text-decoration: none;
+  color: #e53935;
+}
+
+button {
+  background-color: #e53935;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+}
+
+button:hover {
+  background-color: #d32f2f;
+  color: #f0094a;
+  background:#333;
+   box-shadow:none;
+
+}
+.button:before,
+.button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #f0094a;
+  box-shadow:
+   -1px -1px 5px 0px #fff,
+   7px 7px 20px 0px #0003,
+   4px 4px 5px 0px #0002;
+  transition:400ms ease all;
+}
+.button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.button:hover:before,
+.button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+input, select {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  margin-top: 90px;
+  align-content: center;
+  box-shadow: 2px 1px 20px 10px rgb(152, 125, 125);
+}
+.container {
+  padding: 20px;
+  align-items: center ;
+}

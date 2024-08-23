@@ -1,0 +1,32 @@
+.type{
+  border: 1px solid  #422c2ca0;
+  width:fit-content;
+  border-radius:inherit;
+  background: #422c2ca0;
+  box-shadow: 2px 1px 15px 1px rgba(255, 71, 71, 0.76);
+}
+.type.img{
+    width: 100px;
+    display: flex;
+}
+.type img{
+    width: 200px;
+    padding: 1px;
+    border-radius: 20px;
+    
+}
+.details{
+  padding-left: 2px;
+}
+.details h1{
+  margin-top: 1%;
+  margin-bottom: 0px;
+  color: rgb(255, 0, 0);
+  margin-left: 10px;
+}
+.details button{
+  margin-top: 5px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
